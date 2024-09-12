@@ -1,0 +1,103 @@
+.section-5-super-div {
+    margin: 0 87px;
+}
+
+.section5-hr {
+    border: 1px solid rgba(220, 221, 235, 1);
+    margin-bottom: 147px;
+}
+
+.section5-header-div {
+    margin: 0 24px;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section5-h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgba(33, 31, 84, 1);
+}
+
+.section5-explore-button {
+    padding: 26px 38px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(33, 31, 84, 1);
+    font-family: Roboto;
+    margin-left: 28px;
+    border-radius: 14px;
+    border: 1px solid rgba(239, 240, 246, 1);
+    background-color: rgba(255, 255, 255, 1);
+    line-height: 20px;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    cursor: pointer;
+}
+
+.section5-contents {
+    margin: 0 24px;
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+
+}
+
+.content-text {
+    padding: 52px 49px;
+    margin: 0 30px;
+    border-radius: 24px;
+    border: 1px solid rgba(239, 240, 246, 1);
+    box-shadow: 0 2px 6px rgba(20, 20, 43, 0.04);
+    display: inline-block;
+    position: relative;
+    bottom: 49px;
+    background-color: #fff;
+}
+
+.content-text-p1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(33, 31, 84, 1);
+    max-width: 407px;
+    margin-bottom: 17px;
+}
+
+.content-text-p2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(110, 113, 145, 1);
+    max-width: 434px;
+}
+
+.section5-single-content {
+    margin-right: 12px;
+}
+
+.section5-box-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section5-box-div span {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 117, 255, 1);
+}
+
+.section5-box-div p {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(33, 31, 84, 1);
+}

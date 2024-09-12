@@ -1,0 +1,50 @@
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 110px;
+
+}
+
+.second-div {
+    display: flex;
+    align-items: center;
+}
+
+.header-ul {
+    margin-left: 40px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.header-li {
+    padding-left: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(33, 31, 84, 1);
+    font-family: Roboto;
+}
+
+.third-div {
+    display: flex;
+    align-items: center;
+}
+
+.card-info {
+    margin-right: 24px;
+    font-size: 18px;
+    font-family: Roboto;
+    color: rgba(33, 31, 84, 1);
+}
+
+.header-button {
+    padding: 17px 24px;
+    background-color: rgba(0, 117, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Roboto;
+}

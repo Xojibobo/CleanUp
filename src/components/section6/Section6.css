@@ -1,0 +1,72 @@
+.section6-main-div {
+    background-color: rgba(247, 249, 252, 1);
+}
+
+.section6-content1 {
+    max-width: 487px;
+}
+
+.section6-contents {
+    display: flex;
+
+    padding: 112px;
+}
+
+.section6-contents-h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 34px 0;
+    color: rgba(33, 31, 84, 1);
+
+}
+
+.section6-contents-p1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(110, 113, 145, 1);
+    margin-bottom: 32px;
+}
+
+.section6-contents-hr {
+    border: 1px solid rgba(220, 221, 235, 1);
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.section6-contents-h3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(33, 31, 84, 1);
+    margin-bottom: 9px;
+
+}
+
+.section6-contents-p2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(110, 113, 145, 1);
+    margin-bottom: 30px;
+}
+
+.section6-contents-button {
+    padding: 26px 38px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(33, 31, 84, 1);
+    font-family: Roboto;
+
+    border-radius: 14px;
+    border: 1px solid rgba(239, 240, 246, 1);
+    background-color: rgba(255, 255, 255, 1);
+    line-height: 20px;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.main-button {
+    padding: 26px 38px;
+    background-color: rgba(0, 117, 255, 1);
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 1);
+    line-height: 20px;
+    cursor: pointer;
+}

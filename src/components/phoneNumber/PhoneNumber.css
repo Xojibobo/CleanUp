@@ -1,0 +1,21 @@
+.call-main-div {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.call-p1 {
+    line-height: 18px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: rgba(110, 113, 145, 1);
+    font-weight: 400;
+}
+
+.call-p2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(33, 31, 84, 1);
+    line-height: 36px;
+}
