@@ -15,43 +15,49 @@ const Section6 = () => {
                 </div>
 
                 <div className='section6-content2'>
-                    <form action="#">
-                        <div class="form-group">
-                            <label htmlFor="fname">Full name</label>
-                            <input type="text" id='fname' placeholder="Enter your full name" />
+                    <form action="#" className='form-main'>
+                        <div className="section6-form-column">
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="fname">Full name</label><br />
+                                <input className='form-input' type="text" id='fname' />
+                            </div>
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="number">Phone number</label><br />
+                                <input className='form-input' type="text" id='number' />
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label htmlFor="phone">Phone number</label>
-                            <input type="number" id='phone' placeholder="Enter your phone number" />
+                        <div className="section6-form-column">
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="address">Adress</label><br />
+                                <input className='form-input' type="text" id='address' />
+                            </div>
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="email">Email</label><br />
+                                <input className='form-input' type="text" id='email' />
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label htmlFor="address">Address</label>
-                            <input type="text" id='address' placeholder="Enter your address" />
+                        <div className="section6-form-column">
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="service">Requested service</label><br />
+                                <input className='form-input' type="text" id='service' />
+                            </div>
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="day">Day of service</label><br />
+                                <input className='form-input' type="text" id='day' />
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label htmlFor="email">Email</label>
-                            <input type="email" id='email' placeholder="Enter your email" />
+                        <div className="section6-form-column-text">
+                            <div class="form-group">
+                                <label className='form-label' htmlFor="note">Add a note</label><br />
+                                <textarea className='form-input' cols={50} maxLength={77} rows={4} name="" id=""></textarea>
+                            </div>
+
                         </div>
 
-                        <div class="form-group">
-                            <label htmlFor="request">Requested service</label>
-                            <input type="text" id='request' placeholder="Enter the requested service" />
-                        </div>
-
-                        <div class="form-group">
-                            <label htmlFor="day">Day of service</label>
-                            <input type="text" id='day' placeholder="Enter the day of service" />
-                        </div>
-
-                        <div class="form-group">
-                            <label htmlFor="note">Add a note</label>
-                            <textarea name="text" id="note" placeholder="Write a note"></textarea>
-                        </div>
-
-                        <button type="submit" class="submit-btn">Submit</button>
+                        <button type="submit" className='form-button'>Submit message</button>
                     </form>
 
                 </div>
